@@ -1,0 +1,12 @@
+1. finish up post render method
+2. create component for both put and delete method
+
+blocker:
+how to actually return pk from front-end back to flask
+
+how about creating a delete button from the render page
+then only call the api put method if the delete button is clicked.
+
+ideas:
+    maybe put a useState on the getMethod renderer to store the 
+    id numbers in a state. Then passed it in the put renderer.
